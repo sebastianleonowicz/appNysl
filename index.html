@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#F69200">
+    <!-- Your app title -->
+    <!--ZOOMABILITY-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="framework7-2.2.5/dist/css/framework7.min.css">
+
+    <!-- Path to your custom app styles-->
+    <!--    <link rel="stylesheet" href="path/to/my-app.css">-->
+    <link rel="stylesheet" href="styles/app_NYSL_CSS.css">
+
+    <!-- Material Design Lite -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-orange.min.css">-->
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+    <link rel="stylesheet" href="main.css">
+
+    <!--    FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+
+    <!--      BOOTSRAP-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+
+    <!--    HERE ARE META TAGS FOR THE CHAT-->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Firebase Database Quickstart">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#303F9F">
+
+    <title>My App</title>
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+        <!-- Statusbar overlay -->
+        <div class="page">
+            <div id="navbar" class="navbar">
+                <div class="navbar-inner sliding">
+                    <div class="left">
+                        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Leave</span>
+        </a>
+                    </div>
+                    <div class="title">NYSL</div>
+                </div>
+            </div>
+
+            <div class="tabs-animated-wrap">
+                <div class="tabs">
+                    <!--                   TAB1-->
+                    <div id="tab-1" class="page-content tab tab-active">
+                        <div class="block">
+                            <div class="tab1Txt">
+                                <p class="p1a">August 4</p>
+                                <p class="p2">NYSL Fundraiser</p>
+                                <p class="p1b">August 16</p>
+                                <p class="p2">Season Kick-off: Meet the teams!</p>
+                                <p class="p1c">September 1</p>
+                                <p class="p2">First Game of the Season (Check Game Schedule for for Details)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    TAB2-->
+                    <div id="tab-2" class="page-content tab">
+                        <div class="block">
+                            <!--                            SLIDERS FROM LEFT-->
+
+                            <div id="tab2table1">
+                                <div class="top">
+                                    <div class="logo1"></div>
+                                    <div class="vs"></div>
+                                    <div class="logo2"></div>
+
+                                </div>
+                                <div class="bot">
+
+                                    <p class="pBot1">
+                                        U1 and U2
+                                    </p>
+                                    <p class="pBot2">9/01 AJ Katzenmaier 9:30</p>
+
+
+                                </div>
+
+
+
+                            </div>
+                            <div id="tab2table2">
+                                <div class="top">
+                                    <div class="logo2"></div>
+                                    <div class="vs"></div>
+                                    <div class="logo3"></div>
+
+                                </div>
+                                <div class="bot">
+
+                                    <p class="pBot1">
+                                        U2 and U3
+                                    </p>
+                                    <p class="pBot3">9/01 Marjorie 9:30</p>
+
+                                </div>
+
+
+
+
+
+                            </div>
+                            <div id="tab2table3">
+                                <div class="top">
+                                    <div class="logo3"></div>
+                                    <div class="vs"></div>
+                                    <div class="logo4"></div>
+
+                                </div>
+                                <div class="bot">
+
+                                    <p class="pBot1">
+                                        U3 and U4
+                                    </p>
+                                    <p class="pBot3">9/01 Greenbay 9:30</p>
+
+                                </div>
+
+                            </div>
+                            <div id="tab2table4">
+                                <div class="top">
+                                    <div class="logo4"></div>
+                                    <div class="vs"></div>
+                                    <div class="logo5"></div>
+
+                                </div>
+                                <div class="bot">
+
+                                    <p class="pBot1">
+                                        U4 and U5
+                                    </p>
+                                    <p class="pBot3">9/01 Howard 9:30</p>
+
+                                </div>
+
+                            </div>
+                            <div id="tab2table5">
+
+
+                                <div class="top">
+                                    <div class="logo5"></div>
+                                    <div class="vs"></div>
+                                    <div class="logo6"></div>
+
+                                </div>
+                                <div class="bot">
+
+                                    <p class="pBot1">
+                                        U6 and U1
+                                    </p>
+                                    <p class="pBot3">9/01 South 9:30</p>
+
+                                </div>
+
+
+                            </div>
+                            <div id="tab2table6">
+                                <div class="top">
+                                    <div class="logo6"></div>
+                                    <div class="vs"></div>
+                                    <div class="logo1"></div>
+
+                                </div>
+                                <div class="bot">
+
+                                    <p class="pBot1">
+                                        U1 and U2
+                                    </p>
+                                    <p class="pBot3">9/01 North 9:30</p>
+
+                                </div>
+
+
+                            </div>
+                            <div id="tab2map1">
+
+                            </div>
+                            <div id="tab2map2">
+
+                            </div>
+                            <div id="tab2map3">
+
+                            </div>
+                            <div id="tab2map4">
+
+                            </div>
+                            <div id="tab2map5">
+
+                            </div>
+                            <div id="tab2map6">
+
+                            </div>
+
+
+
+                            <p id="tab2row1" class="row">
+                                <button id="tab2button1" class="col button button-fill color-red">Game Info - Search By:</button>
+                            </p>
+                            <!--                            ACCORDION-->
+                            <!--                            <div id="accordion-item" class="accordion-item">-->
+                            <div id="accordion-item">
+                                <p id="tab2row2" class="row" class="accordion-item-toggle">
+                                    <button id="tab2button2" class="col button button-fill color-pink">Team</button>
+                                </p>
+                                <div id="tab2acc1" class="accordion-item-content">
+                                    <div class="row">
+                                        <div class="col">
+                                            <button id="tab2acc1but1" class="col button button-fill color-red"></button>
+                                        </div>
+                                        <div class="col">
+                                            <button id="tab2acc1but2" class="col button button-fill color-red"></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+
+                                            <button id="tab2acc1but3" class="col button button-fill color-red"></button> </div>
+
+                                        <div class="col">
+                                            <button id="tab2acc1but4" class="col button button-fill color-red"></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <button id="tab2acc1but5" class="col button button-fill color-red"></button>
+                                        </div>
+                                        <div class="col">
+                                            <button id="tab2acc1but6" class="col button button-fill color-red"></button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <p id="tab2row3" class="row" class="accordion-item-toggle">
+                                    <button id="tab2button3" class="col button button-fill color-pink">Location</button>
+                                </p>
+                                <div id="tab2acc2" class="accordion-item-content">
+                                    <div class="row">
+                                        <div class="col">
+                                            <button id="tab2acc2but1" class="col button button-fill color-red">Katzenmeier</button>
+                                        </div>
+                                        <div class="col">
+                                            <button class="col button button-fill color-red">Marjorie</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <button class="col button button-fill color-red">Howard</button>
+
+                                        </div>
+                                        <div class="col">
+                                            <button class="col button button-fill color-red">South</button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <button class="col button button-fill color-red">North</button>
+                                        </div>
+                                        <div class="col">
+                                            <button class="col button button-fill color-red">Greenbay</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                    <!--                    TAB3-->
+                    <div id="tab-3" class="page-content tab">
+                        <div id="block3" class="block">
+                            <div id="locationMap1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780866097621!2d-87.86492878511918!3d42.32587244525352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sA+J+Katzenmaier+Elementary+School!5e0!3m2!1spl!2sde!4v1526118634048" width="345" height="406" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            <div id="locationMap2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.0108260483557!2d-87.87105288511944!3d42.320967845563025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f933bce5af881%3A0x740a7a7d548adce1!2sGreenbay+Elementary+School+(K-5)!5e0!3m2!1spl!2sde!4v1526118703694" width="345" height="406" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            <div id="locationMap3"><iframe src="https://www.google.com/maps/embed?pb" width="345" height="406" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            <div id="locationMap4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.720125605413!2d-87.84787868511911!3d42.32716784517176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fecd0628e1bb5%3A0x9a4d5f9aafd42e02!2sMarjorie+P+Hart+Elementary+School!5e0!3m2!1spl!2sde!4v1526118852237" width="345" height="406" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            <div id="locationMap5"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.687410265966!2d-87.8553268851191!3d42.32786554512786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fecd3085aa3bd%3A0x54f2728b0f77d756!2sNorth+Chicago+Community+High+School!5e0!3m2!1spl!2sde!4v1526118888315" width="345" height="406" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            <div id="locationMap6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.7765325709884!2d-87.6315266851437!3d41.63896148832533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e23e85efe0011%3A0x107e2d49d239c04a!2sS+School+St%2C+Riverdale%2C+IL+60827%2C+Stany+Zjednoczone!5e0!3m2!1spl!2sde!4v1526289566334" width="345" height="406" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                            <div id="locationMap7"></div>
+
+                            <p id="tab3row1" class="row">
+                                <button id="tab3button1" class="col button button-fill color-red"><span id="tab3button1span">Choose Location:</span></button>
+                            </p>
+                            <div id="locations">
+                                <div class="row">
+                                    <div class="col">
+                                        <p id="tab3row2" class="row">
+                                            <button id="tab3button2" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="tab3row3" class="row">
+                                            <button id="tab3button3" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p id="tab3row4" class="row">
+                                            <button id="tab3button4" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="tab3row5" class="row">
+                                            <button id="tab3button5" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p id="tab3row6" class="row">
+                                            <button id="tab3button6" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="tab3row7" class="row">
+                                            <button id="tab3button7" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    TAB4-->
+                    <!--                    ------------------------------------------------------------->
+                    <div id="tab-4" class="page-content tab">
+                        <div id="block4" class="block">
+                            <!--                            CHAT U1-->
+                            <!--                           ----------------------------------->
+                            <div id="chatU1">
+                                <div class="chat">
+                                    <div id="posts" class="box">
+
+                                        Loading posts...
+                                    </div>
+                                    <div id="loginScreen" class="loginScreen">
+                                        <div id="login" class="button is-info"></div>
+                                        <p class="loginTXT">Sign in to chat with rest of the team!</p>
+                                    </div>
+                                    <button id="signOut" class="button is-info">Sign Out</button>
+
+                                    <div class="inputs">
+                                        <input id="textInput" class="input" type="text" placeholder="Your message...">
+
+
+                                        <button id="create-post" class="button is-primary">Send</button>
+                                    </div>
+                                </div>
+                                <!-------------------------------------------------->
+                            </div>
+                            <div id="chatU2">
+                               
+                            </div>
+                            <div id="chatU3"></div>
+                            <div id="chatU4"></div>
+                            <div id="chatU5"></div>
+                            <div id="chatU6"></div>
+
+                            <p id="tab4row1" class="row">
+                                <button id="tab4button1" class="col button button-fill color-red">Choose Team Chat:</button>
+                            </p>
+                            <div id="chats">
+                                <div class="row">
+                                    <div class="col">
+                                        <p id="tab4row2" class="row">
+                                            <button id="tab4button2" class="col button button-fill color-pink"></button>
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="tab4row3" class="row">
+                                            <button id="tab4button3" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p id="tab4row4" class="row">
+                                            <button id="tab4button4" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="tab4row5" class="row">
+                                            <button id="tab4button5" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <p id="tab4row6" class="row">
+                                            <button id="tab4button6" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+                                    <div class="col">
+                                        <p id="tab4row7" class="row">
+                                            <button id="tab4button7" class="col button button-fill color-gray"></button>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--            TOOLBAR-->
+            <div class="toolbar tabbar">
+                <div class="toolbar-inner">
+                    <a id="tab1" href="#tab-1" class="tab-link tab-link-active" class="tab"></a>
+                    <a id="tab2" href="#tab-2" class="tab-link"></a>
+                    <a id="tab3" href="#tab-3" class="tab-link"></a>
+                    <a id="tab4" href="#tab-4" class="tab-link"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAudnUqO_Bot7eg4UD6hoDttFIEwMWUNes",
+            authDomain: "nysl-app-fa4a9.firebaseapp.com",
+            databaseURL: "https://nysl-app-fa4a9.firebaseio.com",
+            projectId: "nysl-app-fa4a9",
+            storageBucket: "nysl-app-fa4a9.appspot.com",
+            messagingSenderId: "687519365274"
+        };
+        firebase.initializeApp(config);
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--SCRIPTS FOR THE CHAT-->
+    <!--   -------------------------------->
+    <script src="/__/firebase/5.0.0/firebase-app.js"></script>
+    <script src="/__/firebase/5.0.0/firebase-auth.js"></script>
+    <script src="/__/firebase/5.0.0/firebase-database.js"></script>
+    <script src="/__/firebase/init.js"></script>
+    <!--    <script type="text/javascript" src="js/main.js"></script>-->
+    <!--    ---------------------------------------------------------------------->
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="framework7-2.2.5/dist/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="app_js.js"></script>
+    <!--    <script type="text/javascript" src="js/main.js"></script>-->
+</body>
+
+</html>
