@@ -1,0 +1,755 @@
+.left {
+    display: none;
+}
+
+/*NAVBAR AND TABBAR*/
+
+/*--------------------------------*/
+
+.title {
+    font-family: 'Graduate', cursive;
+    font-size: 50px !important;
+    color: white;
+}
+
+div.navbar {
+    height: 15vh !important;
+    background-color: #F0701B !important;
+
+}
+
+.toolbar.tabbar {
+    height: 15vh !important;
+}
+
+.toolbar-inner {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px !important;
+}
+
+.ios .block {
+    margin: 0px 0px;
+    position: relative;
+}
+
+#tab1,
+#tab2,
+#tab3,
+#tab4 {
+    flex: 1;
+}
+
+#tab1 {
+    /*    background-color: #F0701B;*/
+    background-image: url(news.png);
+    background-size: 100px;
+    background-position: -2px;
+    background-repeat: no-repeat;
+
+}
+
+#tab2 {
+    /*    background-color: #F0BD1B;*/
+    background-image: url(infoicon.png);
+    background-size: 100px;
+    background-position: -2px;
+    background-repeat: no-repeat;
+}
+
+.block {
+    position: relative;
+}
+
+#tab3 {
+    /*    background-color: #D6F01B;*/
+    background-size: 100px;
+    background-position: -2px;
+    background-image: url(locationicon.png);
+    background-repeat: no-repeat;
+
+}
+
+#tab4 {
+    /*    background-color: #9BF01B;*/
+    background-size: 100px;
+    background-position: -2px;
+    background-image: url(chaticon.png);
+    background-repeat: no-repeat;
+}
+
+.tab1Txt {
+    font-family: 'Pangolin', cursive;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 32px;
+}
+
+.p1a {
+    background-color: #FC9049;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+
+    text-align: center;
+    width: 27vw;
+}
+
+.p1b {
+    background-color: #FC9049;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+
+    text-align: center;
+    width: 31vw;
+}
+
+.p1c {
+    background-color: #FC9049;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 36vw;
+}
+
+.p2 {
+    background-color: #FC9049;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.p1 {
+    text-indent: 10px;
+}
+
+.p2 {
+    text-indent: 25px;
+}
+
+#tab-1,
+#tab-2,
+#tab-3,
+#tab-4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(nysl_logo.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: 35px;
+    background-color: white;
+
+}
+
+#block2,
+#block3,
+#block4 {}
+
+/*TAB 2 CSS*/
+
+/*--------------------------------*/
+
+#tab2row1,
+#tab2button1 {
+    height: 10vh;
+    font-family: 'Pangolin', cursive;
+    background-color: #FFC200;
+}
+
+#tab2button1 {
+    font-size: 30px;
+}
+
+#tab2row2,
+#tab2row3,
+#tab2button2,
+#tab2button3 {
+    height: 23vh;
+    font-family: 'Pangolin', cursive;
+    background-color: #FFC200;
+    /*    opacity: 0.9;*/
+}
+
+#tab2button2,
+#tab2button3 {
+    font-size: 40px;
+}
+
+#tab2acc1but1,
+#tab2acc1but2,
+#tab2acc1but3,
+#tab2acc1but4,
+#tab2acc1but5,
+#tab2acc1but6 {
+    height: 17vh;
+    background-size: 110px;
+    background-position: 21px;
+    background-repeat: no-repeat;
+
+}
+
+#tab2acc1but1 {
+    background-image: url(tab2u1.png);
+}
+
+#tab2acc1but2 {
+    background-image: url(tab2u2.png)
+}
+
+#tab2acc1but3 {
+    background-image: url(tab2u3.png)
+}
+
+#tab2acc1but4 {
+    background-image: url(tab2u4.png)
+}
+
+#tab2acc1but5 {
+    background-image: url(tab2u5.png)
+}
+
+#tab2acc1but6 {
+    background-image: url(tab2u6.png)
+}
+
+
+.ios .button.color-red.button-fill {
+    background: transparent;
+}
+
+#tab2acc2but1,
+#tab2acc2but2,
+#tab2acc2but3,
+#tab2acc2but4,
+#tab2acc2but5,
+#tab2acc2but6 {
+    height: 17vh;
+    background-size: 110px;
+    background-position: 21px;
+    background-repeat: no-repeat;
+}
+
+#tab2acc2but1 {
+    background-image: url(locationKatzen.png);
+}
+
+#tab2acc2but2 {
+    background-image: url(locationMarjorie.png);
+}
+
+#tab2acc2but3 {
+    background-image: url(locationHoward.png);
+}
+
+#tab2acc2but4 {
+    background-image: url(locationSouth.png);
+}
+
+#tab2acc2but5 {
+    background-image: url(locationNorth.png);
+}
+
+#tab2acc2but6 {
+    background-image: url(locationGreenbay.png);
+}
+
+
+
+
+/*TABLE SLIDING IN*/
+
+/*-------------------*/
+
+.tab2table1,
+.tab2table2,
+.tab2table3,
+.tab2table4,
+.tab2table5,
+.tab2table6 {
+    background-color: #FFC200;
+    height: 51vh;
+    position: absolute;
+    width: 92vw !important;
+    margin-top: 24vh !important;
+    display: none;
+    overflow: scroll;
+    border-radius: 25px;
+
+    flex-direction: column;
+
+}
+
+#tab2map1 {
+    background-color: #FFC200;
+    height: 51vh;
+    position: absolute;
+    width: 92vw !important;
+    margin-top: 50vh !important;
+    display: none;
+    overflow: scroll;
+    border-radius: 25px;
+
+    flex-direction: column;
+}
+
+#tab2map2,
+#tab2map3,
+#tab2map4,
+#tab2map5,
+#tab2map6 {
+    background-color: #FFC200;
+    height: 51vh;
+    position: absolute;
+    width: 92vw !important;
+    margin-top: 50vh !important;
+    display: none;
+    overflow: scroll;
+    border-radius: 25px;
+
+    flex-direction: column;
+}
+
+#locationMap1,
+#locationMap2,
+#locationMap3,
+#locationMap4,
+#locationMap5,
+#locationMap6,
+#locationMap7 {
+    height: 61vh;
+    width: 92vw;
+    position: absolute;
+    /*    background-color: red;*/
+    border-radius: 0px;
+    display: none;
+    margin-top: 9.5vh !important;
+}
+
+.top,
+.bot {
+    flex: 1;
+}
+
+.top {
+    /*    background-color: blue;*/
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+    background-color: darkorange;
+    width: 87vw;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.bot {
+    border-radius: 25px;
+    background-color: grey;
+    margin-top: 7px;
+    width: 87vw;
+    margin-left: 10px;
+    margin-bottom: 9px;
+}
+
+.logo1,
+.logo2,
+.logo3,
+.logo4,
+.logo5,
+.logo6,
+.logo7 {
+    background-image: url(greenbay.png);
+    flex: 1;
+    background-size: 130px 108px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    margin-left: 10px;
+    background-position: -15px;
+}
+
+.vs {
+    background-image: url(VS2.png);
+    flex: 1;
+    background-size: 119px 102px;
+    background-repeat: no-repeat;
+    background-position: -4px;
+    opacity: 1;
+}
+
+.logo1 {
+    background-image: url(football%20team1.png);
+}
+
+.logo2 {
+    background-image: url(football%20team2.png);
+}
+
+.logo3 {
+    background-image: url(football%20team3.png);
+}
+
+.logo4 {
+    background-image: url(football%20team4.png);
+}
+
+.logo5 {
+    background-image: url(football%20team5.png);
+    background-size: 165px 165px;
+    background-position: -30px -5px;
+}
+
+.logo6 {
+    background-image: url(football%20team6.png);
+    background-position: -18px 25px;
+}
+
+.logo7 {
+    background-image: url(football%20team7.png);
+    background-size: 102px 102px;
+}
+
+.bot {}
+
+.pBot1 {
+    font-size: 38px;
+    text-indent: 66px;
+    margin-top: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.pBot2 {
+    margin-top: 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    text-indent: 8px;
+}
+
+.pBot3 {
+    text-indent: 50px;
+    margin-top: 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+/*TAB3 CSS*/
+
+/*--------------------------------*/
+
+#tab3row1,
+#tab3button1 {
+    height: 10vh !important;
+    font-family: 'Pangolin', cursive;
+    background-color: #FCD149;
+
+}
+
+#tab3button1 {
+    font-size: 30px;
+}
+
+#tab3button2,
+#tab3button3,
+#tab3button4,
+#tab3button5,
+#tab3button6,
+#tab3button7 {
+    height: 17vh;
+    background-size: 132px;
+    background-position: 26px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+}
+
+#tab3button2 {
+    background-image: url(katzen_icon.png);
+}
+
+#tab3button3 {
+    background-image: url(marjorie_icon.png);
+}
+
+#tab3button4 {
+    background-image: url(Howard_icon.png);
+}
+
+#tab3button5 {
+    background-image: url(greenbay_icon.png);
+}
+
+#tab3button6 {
+    background-image: url(north_icon.png);
+}
+
+#tab3button7 {
+    background-image: url(South_icon.png);
+}
+
+/*TAB 4 CSS*/
+
+/*-------------------------------------------------------*/
+
+#tab4button1 {
+    font-size: 30px;
+    /*    margin-top: 21px;*/
+    height: 10vh !important;
+    font-family: 'Pangolin', cursive;
+    background-color: #FCD149;
+}
+
+#tab4button2,
+#tab4button3,
+#tab4button4,
+#tab4button5,
+#tab4button6,
+#tab4button7 {
+    height: 17vh;
+    background-size: 132px;
+    background-position: 26px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+
+}
+
+#tab4button2 {
+    background-image: url(tab2u1.png);
+}
+
+#tab4button3 {
+    background-image: url(tab2u2.png);
+}
+
+#tab4button4 {
+    background-image: url(tab2u3.png);
+}
+
+#tab4button5 {
+    background-image: url(tab2u4.png);
+}
+
+#tab4button6 {
+    background-image: url(tab2u5.png);
+}
+
+#tab4button7 {
+    background-image: url(tab2u6.png);
+}
+
+#chatU1,
+#chatU2,
+#chatU3,
+#chatU4,
+#chatU5,
+#chatU6 {
+    height: 61vh;
+    width: 99vw;
+    position: absolute;
+    /*    background-color: red;*/
+    border-radius: 0px;
+    display: none;
+    margin-top: 9.5vh !important;
+    margin-left: -2vh;
+}
+
+/*CHAT1 CSS*/
+
+/*-----------------------------*/
+
+#fukingTAB {
+    display: block;
+}
+
+/*
+.tabs .tab{
+    display: block !important;
+}
+*/
+
+#menu-my-posts,
+#menu-my-top-posts {
+    display: none;
+}
+
+#menu-recent,
+#menu-my-posts,
+#menu-my-top-posts {
+    display: none;
+}
+
+.mdl-layout__container {
+    width: 100vw;
+}
+
+#page-splash {
+    display: block;
+    position: absolute;
+    top: 14vh;
+    width: 32vw;
+    left: 33vw;
+}
+
+#sign-in-button {
+    height: 17vh;
+    background-image: url(google%20icon.png);
+    background-repeat: no-repeat;
+    background-size: 104px;
+    background-color: white;
+    background-position: 8px;
+    border-radius: 19px;
+}
+
+.logInSpan {
+    color: whitesmoke;
+    position: absolute;
+    top: 34vh;
+    font-size: 39px;
+    left: 6vw;
+    font-weight: bold;
+}
+
+/*CHAT*/
+
+/*---------------------------------*/
+
+.chat {
+    width: 100%;
+    position: relative;
+
+}
+
+.inputs {
+    display: flex;
+    position: absolute;
+    top: 56vh;
+
+}
+
+#textInput,
+#textInput2,
+#textInput3,
+#textInput4,
+#textInput5,
+#textInput6 {
+    width: 80.1vw;
+    background-color: #97BCDF;
+    border-radius: 25px;
+    text-indent: 10px;
+    color: black;
+}
+
+#create-post,
+#create-post2,
+#create-post3,
+#create-post4,
+#create-post5,
+#create-post6 {
+    width: 10vh;
+    left: 1vw;
+}
+
+.box {
+    overflow: scroll;
+    margin-top: 6vh;
+    height: 49vh;
+}
+
+.posts {
+    position: relative;
+    margin-top: 6vh;
+
+}
+
+#signOut,
+#signOut2,
+#signOut3,
+#signOut4,
+#signOut5,
+#signOut6 {
+    position: absolute;
+    width: 21vw;
+    left: 78vw;
+    top: 1vh;
+
+}
+
+.myPosts {
+    background-color: #97BCDF;
+    border-radius: 25px;
+    width: 70vw;
+    text-align: right;
+    text-indent: 10px;
+    margin-left: 29vw;
+    border-color: transparent;
+    border-width: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+    border-width: 3px;
+    border-color: whitesmoke;
+    border-style: solid;
+}
+
+.notMyPosts {
+    background-color: whitesmoke;
+    border-radius: 25px;
+    width: 70vw;
+    text-align: left;
+    text-indent: 10px;
+    color: black;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 3px;
+    border-color: #97BCDF;
+    border-style: solid;
+}
+
+.userP {
+    padding-top: 7px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.messageP {
+    padding-right: 12px;
+}
+
+.loginScreen {
+    height: 99%;
+    position: relative;
+    background-color: lightblue !important;
+}
+
+#login,
+#login2,
+#login3,
+#login4,
+#login5,
+#login6 {
+    top: 12vh;
+    width: 125px;
+    height: 125px;
+    left: 34vw;
+    background-image: url(google%20icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-width: 0px;
+}
+
+.loginTXT {
+    top: 33vh;
+    left: 4vw;
+    height: 12vh;
+    width: 94vw;
+    position: absolute;
+    font-weight: bold;
+    font-size: 28px;
+    color: whitesmoke;
+}
